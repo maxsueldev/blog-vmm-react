@@ -15,7 +15,7 @@ export default function Navbar() {
         <nav className='navbar'>
             <div className='navbar__container'>
                 <div className="navbar__header">
-                    <img className='image-logo' src="assets/logo.png" alt="Lorem Ipsum" />
+                    <a href="/"><img className='image-logo' src="assets/logo.png" alt="Lorem Ipsum" /></a>
                 </div>
 
                 <GiHamburgerMenu className='navbar__hamburgerMenu' onClick={() => showMenu()} />

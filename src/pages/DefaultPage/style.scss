@@ -1,0 +1,13 @@
+@media (768px <= width) {
+    .container {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 1rem;
+    }
+}
+
+@media (1281px <= width) {
+    .container {
+        margin: 0 6rem;
+    }
+}
