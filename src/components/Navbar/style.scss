@@ -5,6 +5,7 @@
     position: fixed;
     top: 0;
     padding: .6rem 2rem;
+    z-index: 1; 
 
     &__container {
         display: flex;

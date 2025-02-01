@@ -3,9 +3,12 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import './variables.css';
 import RouterApp from './routes.jsx';
+import { AppProvider } from './context/index.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterApp />
+    <AppProvider>
+      <RouterApp />
+    </AppProvider>
   </StrictMode>,
 )

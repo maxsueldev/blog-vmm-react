@@ -10,6 +10,8 @@ body {
   width: 100%;
   height: 100%;
   font-family: "Source Sans 3", Arial, sans-serif;
+  background-color: var(--gray-bg-color);
+  position: relative;
 }
 
 li {

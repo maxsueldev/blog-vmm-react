@@ -1,0 +1,141 @@
+.content-lateral {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: .62rem;
+
+    .content__perfil {
+        text-align: center;
+        border: 1px solid var(--gray-border-color);
+        padding: 1.87rem 0;
+
+        &-img {
+            width: 11.25rem;
+            height: 11.25rem;
+            border-radius: 50%;
+        }
+
+        .nome {
+            font-size: 1.25rem;
+            line-height: 2.18rem;
+            font-weight: bold;
+            margin: .62rem 0;
+
+            &::before {
+                content: "";
+                display: block;
+                width: 11.87rem;
+                height: 1px;
+                background-color: var(--gray3-color);
+                margin: 0 auto 3px auto;
+            }
+
+            &::after {
+                content: "";
+                display: block;
+                width: 11.87rem;
+                height: 1px;
+                background-color: var(--gray3-color);
+                margin: 3px auto 0 auto;
+            }
+        }
+
+        .sobre {
+            font-size: 1rem;
+            line-height: 1.5rem;
+            font-weight: 300;
+            ;
+            padding: 0 1.5rem;
+        }
+    }
+
+    .content__artigos-populares {
+        width: 15.62rem;
+        background-color: var(--gray4-color);
+        border: 1px solid var(--gray1-color);
+        margin: 25px auto 40px auto;
+
+        .top-artigos-populares {
+            background-color: var(--gray5-color);
+            padding: 1.2rem;
+
+            h2 {
+                font-size: 1.2rem;
+                color: var(--gray6-color);
+                text-transform: uppercase;
+                font-weight: 400;
+                text-align: center;
+            }
+        }
+
+        .content__lista-artigos-populares {
+            padding: 0 1.25rem;
+
+            li {
+                margin-top: 1.25rem;
+
+                &:last-child {
+                    margin-bottom: 1.87rem;
+                }
+
+                a {
+                    font-size: 1.2rem;
+                    line-height: 1.56rem;
+                    color: var(--black-color);
+                    font-weight: 300;
+                    padding: .62rem;
+
+                    &:hover {
+                        color: var(--blue-color);
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@media (768px <=width) {
+    .content-lateral {
+        width: 14rem;
+        margin-left: 2rem;
+        margin-top: 2rem;
+
+        .content__perfil {
+            .nome {
+                &::before {
+                    width: 9rem;
+                }
+
+                &::after {
+                    width: 9rem;
+                }
+            }
+        }
+
+    }
+}
+
+@media (1281px <= width) {
+    .content-lateral {
+        width: 18rem;
+        margin-left: 5rem;
+    }
+}
+
+// .perfil-lorem,
+// .artigos-populares {
+//     width: 180px;
+// }
+
+// .perfil-lorem .nome:before {
+//     width: 130px;
+// }
+
+// .perfil-lorem .nome:after {
+//     width: 130px;
+// }
+
+// .perfil-lorem .sobre {
+//     padding: 0 25px;
+// }

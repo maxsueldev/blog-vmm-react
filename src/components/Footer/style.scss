@@ -1,0 +1,14 @@
+footer {
+    background-color: #171920;
+    text-align: center;
+    padding: 1rem 0;
+    color: var(--white-color);
+
+    a {
+        color: var(--white-color);
+
+        &:hover {
+            color: var(--white-color);
+        }
+    }
+}

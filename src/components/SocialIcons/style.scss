@@ -1,0 +1,16 @@
+.social-icons {
+    margin-top: 9rem;
+    ul {
+        display: flex;
+        justify-content: center;
+        gap: .8rem;
+
+        li a {
+            font-size: 30px;
+            &:hover {
+                color: var(--blue-color);
+            }
+        }
+    }
+    
+}
