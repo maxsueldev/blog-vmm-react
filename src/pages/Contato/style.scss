@@ -1,0 +1,68 @@
+.content {
+    max-width: 100%;
+    margin-right: 0;
+    padding-bottom: 20px;
+
+    &__title {
+        font-size: 30px;
+        line-height: 34px;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+
+    .conteudo {
+        p {
+            font-size: 20px;
+            font-weight: 300;
+            margin-bottom: 2.2rem;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+
+            label {
+                font-size: 1.2rem;
+                font-weight: 300;
+            }
+
+            input, textarea {
+                border: 1px solid var(--black1-color);
+                background-color: transparent;
+                height: 2rem;
+                outline: none;
+                padding: 8px;
+            }
+
+            input:focus, textarea:focus {
+                border-color: var(--blue-color);
+            }
+
+            textarea {
+                height: 10rem;
+            }
+
+            button {
+                font-size: 1rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                width: 45%;
+                padding: 5px 0;
+                border: 1px solid var(--black1-color);
+                margin: .8rem auto;
+            }
+        }
+    }
+}
+
+@media (1025px <= width) {
+    .conteudo form {
+        width: 85%;
+
+        button.enviar_blog {
+            width: 25%;
+        }
+    }
+}
+

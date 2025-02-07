@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import './variables.css';
 import RouterApp from './routes.jsx';
-import { AppProvider } from './context/index.jsx';
+import { AppProvider } from './context';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -12,3 +12,4 @@ createRoot(document.getElementById('root')).render(
     </AppProvider>
   </StrictMode>,
 )
+  

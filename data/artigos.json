@@ -3,36 +3,41 @@
         {
             "id": 1,
             "title": "Por que devo ensinar empreendedorismo em minha escola?",
-            "image": "",
+            "imageUrl": "por-que-devo-ensinar-empreendedorismo-em-minha-escola/thumb-por-que-devo-ensinar-empreendedorismo-em-minha-escola.jpg",
             "linkName": "por-que-devo-ensinar-empreendedorismo-em-minha-escola",
+            "description": "Sempre que falo sobre empreendedorismo fica martelando na minha mente: “Poxa, seria tão legal e tão revigorando ver alunos ainda no ensino regular estudando e praticando o empreendedorismo! ”, mas muita gente ainda me questiona sobre os motivos....",
             "content": ""
         },
         {
             "id": 2,
-            "title": "O inglês é o mundo dos negócios: qual a relação",
-            "image": "",
+            "title": "O inglês e o mundo dos negócios: qual a relação",
+            "imageUrl": "ingles-e-o-mundo-dos-negocios/thumb-ingles-e-o-mundo-dos-negocios.jpg",
             "linkName": "ingles-e-o-mundo-dos-negocios",
+            "description": "É inegável que ser empreendedor é uma das profissões mais difíceis e que mais exigem da nossa sociedade atualmente, afinal de contas cuidar da própria empresa requer muito conhecimento e, mais ainda, muito esforço. Exatamente por isso, você assim como eu já deve ter ouvido milhares de vezes....",
             "content": ""
         },
         {
             "id": 3,
             "title": "As melhores ferramentas para gerir e analizar seu negócio! [parte 1]",
-            "image": "",
+            "imageUrl": "ferramentas-para-gerir-e-analisar-seu-negocio-parte-1/thumb-ferramentas-para-gerir-e-analisar-seu-negocio-parte-1.jpg",
             "linkName": "ferramentas-para-gerir-e-analisar-seu-negocio-parte-1",
+            "description": "Gerir o próprio negócio nunca foi tarefa fácil e ao contrário do que se parece, não tem experiência do mundo que a torne melhor. É sempre necessário estar planejando, analisando, se adaptando as novidades do mercado, criando, pivotando e trazendo constantes inovações para fidelizar...",
             "content": ""
         },
         {
             "id": 4,
             "title": "As melhores ferramentas para gerir e analizar seu negócio! [parte 2]",
-            "image": "",
+            "imageUrl": "ferramentas-para-gerir-e-analisar-seu-negocio-parte-2/thumb-ferramentas-para-gerir-e-analisar-seu-negocio-parte-2.jpg",
             "linkName": "ferramentas-para-gerir-e-analisar-seu-negocio-parte-2",
+            "description": "A importância de uma gestão empresarial de qualidade que tenha conhecimento sobre todos os acontecimentos e novidades recorrentes em uma empresa não é novidade, mas quando chega no dia a dia vemos a real dificuldade de gerir um negócio e estar a par de tudo...",
             "content": ""
         },
         {
             "id": 5,
             "title": "Como abrir meu primeiro negócio: 6 dicas que podem te ajudar!",
-            "image": "",
+            "imageUrl": "como-abrir-meu-primeiro-negocio/thumb-como-abrir-meu-primeiro-negocio.jpg",
             "linkName": "como-abrir-meu-primeiro-negocio",
+            "description": "Se analisarmos nosso cotidiano e todas as questões econômicas que o Brasil está enfrentando, perceberemos que está se tornando cada vez mais comum vermos novos negócios nascendo e mais pessoas começando a investir no mercado empreendedor. O problema de todo esse crescimento...",
             "content": ""
         }
     ]

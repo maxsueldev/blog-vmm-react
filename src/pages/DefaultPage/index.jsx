@@ -10,7 +10,7 @@ export default function DefaultPage() {
     return (
         <>
             <Header />
-            <Newsletter />
+            {/* <Newsletter /> */}
             <div className="container">
                 <Outlet />
                 <Sidebar />
