@@ -49,10 +49,12 @@
             }
         }
     }
+}
 
-    // .img-artigo img {
-    //     float: left;
-    //     margin-top: 10px;
-    //     margin-right: 10px;
-    // }
+@media(768px <= width) {
+    .img-artigo img {
+        float: left;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
 }

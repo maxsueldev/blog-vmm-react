@@ -9,7 +9,7 @@ function AppProvider({ children }) {
 
     async function fetchArtigos() {
         try {
-            await fetch('http://localhost:5000/artigos')
+            await fetch('https://json-server-projects.vercel.app/artigos')
                 .then(response => response.json())
                 .then(data => setArtigos(data));
         } catch (err) {
