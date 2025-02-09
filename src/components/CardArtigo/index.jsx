@@ -11,7 +11,7 @@ export default function CardArtigo({ artigo }) {
             <div className="img-artigo">
                 <Link to={`./artigos/${artigo.linkName}.html`}>
                     <img className='img-thumb-artigo'
-                        src={`../../../dist/assets/artigos/${artigo.imageUrl}`}
+                        src={artigo.imageUrl}
                         alt={artigo.title} />
                 </Link>
             </div>
