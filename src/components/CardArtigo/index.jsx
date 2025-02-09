@@ -2,8 +2,6 @@ import { Link } from 'react-router-dom';
 import './style.scss';
 
 export default function CardArtigo({ artigo }) {
-    console.log(artigo.imageUrl);
-
     return (
         <div className='artigo'>
             <Link to={`./artigos/${artigo.linkName}.html`} >
@@ -12,10 +10,9 @@ export default function CardArtigo({ artigo }) {
 
             <div className="img-artigo">
                 <Link to={`./artigos/${artigo.linkName}.html`}>
-                    {/* <img className='img-thumb-artigo'
+                    <img className='img-thumb-artigo'
                         src={artigo.imageUrl}
-                        alt={artigo.title} /> */}
-                        <p>Testando</p>
+                        alt={artigo.title} />
                 </Link>
             </div>
 
