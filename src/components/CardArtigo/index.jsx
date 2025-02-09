@@ -15,6 +15,7 @@ export default function CardArtigo({ artigo }) {
                     {/* <img className='img-thumb-artigo'
                         src={artigo.imageUrl}
                         alt={artigo.title} /> */}
+                        <p>Testando</p>
                 </Link>
             </div>
 
