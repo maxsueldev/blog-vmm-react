@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom';
 import './style.scss';
 
 export default function CardArtigo({ artigo }) {
+    console.log(artigo.imageUrl);
+
     return (
         <div className='artigo'>
             <Link to={`./artigos/${artigo.linkName}.html`} >
