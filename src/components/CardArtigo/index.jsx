@@ -12,9 +12,9 @@ export default function CardArtigo({ artigo }) {
 
             <div className="img-artigo">
                 <Link to={`./artigos/${artigo.linkName}.html`}>
-                    <img className='img-thumb-artigo'
+                    {/* <img className='img-thumb-artigo'
                         src={artigo.imageUrl}
-                        alt={artigo.title} />
+                        alt={artigo.title} /> */}
                 </Link>
             </div>
 
