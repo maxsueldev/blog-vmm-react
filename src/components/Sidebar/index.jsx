@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { AppContext } from '../../context';
-import perfilImage from '../../../dist/assets/perfil.jpg';
+import perfilImage from '../../../public/assets/perfil.jpg';
 import './style.scss';
 import { Link } from 'react-router-dom';
 
