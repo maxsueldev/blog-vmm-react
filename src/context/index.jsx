@@ -9,7 +9,9 @@ function AppProvider({ children }) {
 
     async function fetchArtigos() {
         try {
-            await fetch('https://json-server-projects.vercel.app/artigos')
+            await fetch('https://json-server-projects.vercel.app/artigos', {
+                mode: 'no-cors',
+            })
                 .then(response => response.json())
                 .then(data => setArtigos(data));
         } catch (err) {
