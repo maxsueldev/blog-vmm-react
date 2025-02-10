@@ -4,12 +4,12 @@ import './style.scss';
 export default function CardArtigo({ artigo }) {
     return (
         <div className='artigo'>
-            <Link to={`./artigos/${artigo.linkName}.html`} >
+            <Link to={`./artigos/${artigo.linkName}`} >
                 <h1 className="titulo-artigo">{artigo.title}</h1>
             </Link>
 
             <div className="img-artigo">
-                <Link to={`./artigos/${artigo.linkName}.html`}>
+                <Link to={`./artigos/${artigo.linkName}`}>
                     <img className='img-thumb-artigo'
                         src={artigo.imageUrl}
                         alt={artigo.title} />

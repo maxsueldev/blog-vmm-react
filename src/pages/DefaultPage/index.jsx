@@ -8,7 +8,10 @@ import './style.scss';
 export default function DefaultPage() {
     return (
         <>
-            <Header />
+            <Header 
+                titulo='Vamos mudar o mundo' 
+                background={'../../../public/assets/sections/intro-mobile.png'} 
+            />
             {/* <Newsletter /> */}
             <div className="container">
                 <Outlet />

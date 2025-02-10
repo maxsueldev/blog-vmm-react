@@ -1,11 +1,13 @@
 import './style.scss';
 
-export default function Header() {
+export default function Header({ titulo = '', background, height = '17.5rem' }) {
     return (
-        <header className='header'>
-            <div className="header__frase">
-                <h1 className='titulo-intro'>Vamos mudar o mundo!</h1>
-            </div>
+        <header className='header' style={{ background: `url('${background}') no-repeat center`, backgroundSize: 'cover', height: `${height}`}}>
+            {titulo &&
+                <div className="header__frase">
+                    <h1 className='titulo-intro'>{titulo}</h1>
+                </div>
+            }
         </header>
     );
 }
