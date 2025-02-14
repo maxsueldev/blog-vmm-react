@@ -15,7 +15,7 @@ export default function Navbar() {
         <nav className='navbar'>
             <div className='navbar__container'>
                 <div className="navbar__header">
-                    <a href="/"><img className='image-logo' src="../../../public/assets/logo.png" alt="Lorem Ipsum" /></a>
+                    <a href="/"><img className='image-logo' src="https://blog-vmm-react.vercel.app/assets/logo.png" alt="Lorem Ipsum" /></a>
                 </div>
 
                 <GiHamburgerMenu className='navbar__hamburgerMenu' onClick={() => showMenu()} />

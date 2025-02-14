@@ -4,9 +4,9 @@ import '../style.scss';
 export default function Empreendedorismo() {
     return (
         <>
-            <Header 
-                background='../../../../public/assets/artigos/por-que-devo-ensinar-empreendedorismo-em-minha-escola/intro-por-que-devo-ensinar-empreendedorismo-em-minha-escola.jpg' 
-                height='8rem'    
+            <Header
+                background='artigos/por-que-devo-ensinar-empreendedorismo-em-minha-escola/intro-por-que-devo-ensinar-empreendedorismo-em-minha-escola.jpg'
+                height='8rem'
             />
             <section className='article'>
                 <h1>Por que devo ensinar Empreendedorismo em minha escola?</h1>

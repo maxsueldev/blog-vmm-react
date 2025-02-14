@@ -4,9 +4,9 @@ import '../style.scss';
 export default function InglesNegocios() {
     return (
         <>
-            <Header 
-                background='../../../../public/assets/artigos/ingles-e-o-mundo-dos-negocios/intro-ingles-e-o-mundo-dos-negocios.jpg' 
-                height='8rem'    
+            <Header
+                background='artigos/ingles-e-o-mundo-dos-negocios/intro-ingles-e-o-mundo-dos-negocios.jpg'
+                height='8rem'
             />
             <section className='article'>
                 <h1>O Inglês e o Mundo dos Negócios: Qual a relação?</h1>
