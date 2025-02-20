@@ -1,0 +1,35 @@
+.sobre {
+  padding: 1.6rem;
+
+  &__foto img {
+    width: 6rem;
+    float: left;
+    border-radius: 50%;
+    margin: 0 1rem 1rem 0;
+  }
+
+  &__descricao {
+    h1 {
+      color: var(--gray6-color);
+      font-size: 1.4rem;
+      font-weight: 400;
+    }
+
+    p {
+      font-size: 1rem;
+      font-weight: 100;
+    }
+  }
+}
+
+@media (768px <= width) {
+  .sobre {
+    max-width: 26rem;
+  }
+}
+
+@media (1280px <= width) {
+  .sobre {
+    max-width: 22rem;
+  }
+}

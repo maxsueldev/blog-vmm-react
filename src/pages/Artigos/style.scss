@@ -1,20 +1,113 @@
 .article {
-    padding: 2rem;
+  padding: 2rem;
 
-    h1 {
-        font-size: 1.8rem;
-        line-height: 2.1rem;
-        font-weight: 400;
-        margin-bottom: 1.5rem;
+  &__content {
+    p {
+      font-size: 1.2rem;
+      font-weight: 300;
+      margin-bottom: 1.4rem;
     }
 
-    .data-time {
-        font-size: .9rem;
+    p.citacao {
+      font-size: 18px;
+      line-height: 28px;
+      font-style: italic;
+      text-align: center;
+      max-width: 90%;
+      margin: 40px auto;
+    }
+
+    p.citacao:after,
+    p.citacao:before {
+      content: "";
+      display: block;
+      max-width: 100%;
+      height: 1px;
+      background-color: var(--gray3-color);
+      margin: 12px auto;
+    }
+
+    .list {
+      margin-left: 3em;
+    }
+
+    img {
+      width: 18rem;
+      margin: 1rem 0;
+    }
+
+    .subtitulo {
+      margin-bottom: 1.4rem;
+    }
+  }
+}
+
+@media (768px <= width) {
+  .about-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.4rem;
+  }
+
+  .article__content {
+    p.recuo {
+      text-indent: 3em;
+    }
+
+    p.citacao {
+      max-width: 70%;
+    }
+
+    img {
+      display: block;
+      width: 32rem;
+      margin: 2rem auto;
+    }
+  }
+}
+
+@media (1025px <= width) {
+  .article__content {
+    img {
+      width: 40rem;
+    }
+  }
+}
+
+@media (1280px <= width) {
+  .artigos-container {
+    display: flex;
+    align-items: flex-start;
+    padding: 0 2rem;
+
+    .header {
+      position: absolute;
+      left: 0;
+      height: 200px !important;
+    }
+
+    .article {
+      max-width: 55rem;
+      margin-top: 14rem;
+      margin-bottom: 4rem;
+
+      h1 {
+        font-size: 3.5rem;
+        line-height: 3.6rem;
         font-weight: 300;
-        margin-top: .4rem;
-        
-        span:first-child {
-            margin-right: 1rem;
+      }
+
+      &__content {
+        p.citacao {
+          max-width: 60%;
         }
+      }
     }
+
+    .about-container {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 14rem;
+    }
+  }
 }

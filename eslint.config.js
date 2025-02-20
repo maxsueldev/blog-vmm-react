@@ -33,7 +33,9 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
-      'react/props': 'off'
+      "rules": {
+        'react/props': 'off'
+      }
     },
   },
 ]
